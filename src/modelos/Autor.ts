@@ -7,14 +7,14 @@ type TAutor = {
 
 
 export default class Autor{
-  readonly  id:string
+    readonly  id:string
     nome:string
     idade:number
 
    constructor(autor: TAutor){
     this.id = this.gerarId()  
     this.nome = autor.nome
-      this.idade = autor.idade
+    this.idade = autor.idade
 
    }
     
